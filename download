@@ -1,0 +1,35 @@
+# MovYra Bot — Git Ignore
+# Never commit these files!
+
+# Secrets
+.env
+
+# Database files (contain user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups folder
+backups/
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/

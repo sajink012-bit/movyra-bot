@@ -1,0 +1,17 @@
+# MovYra Telegram Bot — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core Telegram library (async, v20+)
+python-telegram-bot[job-queue]==21.3
+
+# Environment variable loader
+python-dotenv==1.0.1
+
+# Timezone support (for IST scheduling)
+pytz==2024.1
+
+# HTTP client for website API calls
+aiohttp==3.9.5
+
+# (optional) if you want to use PostgreSQL instead of SQLite
+# psycopg2-binary==2.9.9
